@@ -247,7 +247,7 @@ chmod -R 755 /usr/sbin/pmtad
 chmod -R 755 /usr/sbin/pmtahttpd
 rm -rf PowerMTA-5.0r7.rpm
 rm -rf patch
-wget -q https://61d1b2e6d14e6dbf25ddba895caba3c7.cdn.bubble.io/f1716680066419x762827298626094000/config
+wget -q https://github.com/chimajdev/rocket/blob/main/config
 mv config /etc/pmta
 echo  ' PowerMTA 5.0r7 has been successfully installed. Please update you config file and then restart the PowerMTA '
 rm -rf install.sh
